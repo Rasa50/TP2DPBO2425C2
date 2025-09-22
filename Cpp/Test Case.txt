@@ -1,0 +1,121 @@
+-> Test Case 1 — Tidak menambah data
+
+Input:
+
+n
+
+-> Ekspektasi output:
+
+Program langsung menampilkan tabel dengan 5 transaksi awal. Tidak ada transaksi tambahan. Program selesai.
+
+
+-> Test Case 2 — Tambah 1 transaksi baru
+
+Input:
+
+y
+106
+Mouse
+Logitech
+MS123
+250000
+Mouse Gaming
+6
+Computer Store
+Raka
+Jl. Dipatiukur No. 22
+IZN-006
+30
+2
+Cash
+n
+
+-> Ekspektasi output:
+
+Tabel awal muncul (5 data). User input data transaksi ke-6. Program menampilkan ulang tabel dengan 6 transaksi (data mouse muncul di baris terakhir). Program selesai karena user jawab n.
+
+
+-> Test Case 3 — Tambah 2 transaksi lalu berhenti
+
+Input:
+
+y
+107
+Printer
+Canon
+PR987
+1500000
+Printer Inkjet
+7
+Office Supplies
+Doni
+Jl. Ahmad Yani No. 15
+IZN-007
+12
+1
+Transfer
+
+y
+108
+Speaker
+JBL
+SP222
+800000
+Portable Bluetooth Speaker
+8
+Sound Center
+Rini
+Jl. Asia Afrika No. 3
+IZN-008
+25
+4
+E-Wallet
+n
+
+-> Ekspektasi output:
+
+Tabel awal dengan 5 transaksi muncul. User input data transaksi ke-6 (Printer). Tabel tampil ulang dengan 6 data. User input transaksi ke-7 (Speaker). Tabel tampil ulang dengan 7 data. Program selesai karena user jawab n.
+
+
+-> Test Case 4 — Uji Dinamika Lebar Kolom
+
+Input:
+
+y
+200
+PC
+HP
+H100
+9000000
+PC Biasa
+9
+IT
+Ali
+IT Street
+IZN-009
+5
+1
+Cash
+
+y
+201
+Super Ultra Wide Monitor
+Samsung Electronics
+MNTR123456789
+12500000
+Monitor Gaming 49 inch
+9
+Super Elektronik Superstore
+Raka Pratama
+Jl. Panjang Sekali Banget No. 123, Bandung
+IZN-010
+3
+1
+Transfer
+n
+
+-> Ekspektasi Output:
+
+Awal: tabel tampil dengan 5 transaksi default.
+
+Kolom Produk, Toko, Pemilik lebarnya standar (misalnya max = "Headphone" / "Electronic Mart"). Setelah tambah transaksi pertama (PC) Kolom tetap sama, karena data pendek (PC, HP, IT). Setelah tambah transaksi kedua (SuperUltraWideMonitor) Kolom Produk melebar karena "SuperUltraWideMonitor" lebih panjang dari "Headphone". Kolom Toko melebar karena "Super Elektronik Superstore" lebih panjang dari "Electronic Mart". Kolom Pemilik melebar karena "Raka Pratama" lebih panjang dari "Siti". Alamat panjang tetap tidak bikin masalah karena tidak ditampilkan di tabel.
