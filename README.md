@@ -37,7 +37,7 @@ Penjelasan Alur Program
 Dokumentasi
 
 -> CPP
-![CPP](CPP/Dokumentasi/dokumentasiCPP.png)
+![CPP](Cpp/Dokumentasi/dokumentasiCPP.png)
 
 -> Python
 ![Python](Python/Dokumentasi/Py1.png)
