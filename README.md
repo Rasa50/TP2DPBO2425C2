@@ -25,6 +25,7 @@ Penjelasan Atribut dan Methods
     Methods: Selain constructor dan getter/setter untuk atributnya, kelas ini juga memiliki metode statis yang bertanggung jawab untuk memformat dan menampilkan data transaksi dalam bentuk tabel.
 
 Diagram
+
 ![Diagram](Design/design.png)
 
 Penjelasan Alur Program
