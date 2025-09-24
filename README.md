@@ -30,9 +30,13 @@ Diagram
 
 Penjelasan Alur Program
     1. Alur program dimulai dari file utama (misalnya, main.py atau Main.java).
+
     2. Program mengimpor kelas-kelas yang diperlukan (Transaksi, TokoElektronik, dan Produk).
+
     3. Sebuah daftar atau array data transaksi dibuat.
+
     4. Setiap elemen dalam daftar adalah sebuah objek Transaksi, yang dibuat dan diisi dengan data awal. Proses ini secara otomatis menginisialisasi properti dari kelas induknya (TokoElektronik dan Produk) melalui pewarisan.
+
     5. Setelah semua data disiapkan, program memanggil metode untuk mencetak tabel yang rapi ke konsol, menampilkan semua informasi transaksi.
 
 Dokumentasi
