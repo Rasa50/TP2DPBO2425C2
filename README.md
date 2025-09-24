@@ -25,7 +25,7 @@ Penjelasan Atribut dan Methods
     Methods: Selain constructor dan getter/setter untuk atributnya, kelas ini juga memiliki metode statis yang bertanggung jawab untuk memformat dan menampilkan data transaksi dalam bentuk tabel.
 
 Diagram
-![Diagram](Design/design.jpg)
+![Diagram](Design/design.png)
 
 Penjelasan Alur Program
     1. Alur program dimulai dari file utama (misalnya, main.py atau Main.java).
@@ -37,13 +37,13 @@ Penjelasan Alur Program
 Dokumentasi
 
 -> CPP
-![CPP](CPP/Dokumentasi/dokumentasiCPP.jpg)
+![CPP](CPP/Dokumentasi/dokumentasiCPP.png)
 
 -> Python
-![Python](Python/Dokumentasi/Py1.jpg)
+![Python](Python/Dokumentasi/Py1.png)
 
 -> Java
-![Java](Java/Dokumentasi/Java1.jpg)
+![Java](Java/Dokumentasi/Java1.png)
 
 -> PHP
-![PHP](Php/Dokumentasi/php1.jpg)
+![PHP](Php/Dokumentasi/php1.png)
