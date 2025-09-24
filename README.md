@@ -29,7 +29,7 @@ Diagram
 ![Diagram](Design/design.png)
 
 Penjelasan Alur Program
-    1. Alur program dimulai dari file utama (misalnya, main.py atau Main.java).
+    1. Alur program dimulai dari file utama.
 
     2. Program mengimpor kelas-kelas yang diperlukan (Transaksi, TokoElektronik, dan Produk).
 
